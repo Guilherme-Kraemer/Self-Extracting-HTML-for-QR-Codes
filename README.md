@@ -1,6 +1,6 @@
 # 📦 Self-Extracting HTML for QR Codes
 
-Distribuição de páginas web completas dentro das limitações físicas de um QR Code, utilizando compressão e reconstrução dinâmica no frontend.
+Distribuição de páginas web completas dentro das limitações físicas de um QR Code, utilizando compressão e reconstrução dinâmica no frontend
 
 # 📖 Visão Geral
 
