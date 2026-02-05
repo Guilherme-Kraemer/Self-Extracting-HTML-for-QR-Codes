@@ -9,7 +9,7 @@ Este projeto demonstra uma arquitetura que permite embutir páginas HTML signifi
 
 - Compressão agressiva
 - Encoding otimizado
-- Um loader HTML mínimo que descompacta e reconstrói a página no navegador
+- Um loader HTML mínimo que descompacta e reconstrói a página no navegador.
 
 O resultado é um artefato frontend autocontido, capaz de renderizar interfaces completas sem depender de servidores externos, CDNs ou conexões adicionais.
 
