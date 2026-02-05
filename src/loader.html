@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<body>
+    <script>
+        /* LZ-String minimal (somente o necessário) */
+        function d(e) {
+            let t = 0, r = 0, n = 0, i = {}, o = [], u = 0, a = 0, f = 0, l = 0, c = "", s = "", h = "";
+            for (t = 0; t < e.length; t++)i[e.charAt(t)] = t;
+            for (u = 0, a = 4, f = 4, l = 3; t < u;) {
+                if (a == 0) { a = Math.pow(2, f); f++; l++ }
+                s = e.charAt(t++); r = i[s]; n |= (r << a); a += l;
+                if (a >= 8) {
+                    c = String.fromCharCode(n & 255);
+                    o.push(c); n >>= 8; a -= 8
+                }
+            }
+            return o.join("")
+        }
+        const payload = "__PAYLOAD__";
+        document.documentElement.innerHTML = d(payload);
+    </script>
+</body>
+
+</html>
